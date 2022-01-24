@@ -37,7 +37,7 @@ do
             { Console.WriteLine("{0}th element in UnSorted array is {1}", l, Array[l - 1]); }
             else { Console.WriteLine("Invalid input Please Retry\n"); }
 
-        } while (d = false || l == 0 || l > size);
+        } while (d == false || l == 0 || l > size);
     }
     else
         Console.WriteLine("Invalid input Please Retry\n");
